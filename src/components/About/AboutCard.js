@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am a final year student at COT Pantnagar.
             <br />
-            I have also worked in OfficeBanao and Bricknbolt as SDE Intern.
+            I have also worked at OfficeBanao and Bricknbolt as SDE Intern.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
