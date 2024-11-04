@@ -13,14 +13,14 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Card.Footer>
+      </Card.Body>
+      <Card.Footer>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {"GitHub"}
         </Button>
         {"\n"}
         {"\n"}
-
         {props.demoLink && (
           <Button
             variant="primary"
@@ -32,8 +32,7 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
-        </Card.Footer>
-      </Card.Body>
+      </Card.Footer>
     </Card>
   );
 }

@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple"> Saksham Negi </span>
             from <span className="purple"> Kotdwara, India.</span>
             <br />
-            I am a final year student at COT Pantnagar.
+            I am currently working as a SDE at Fantasy Akhada.
             <br />
             I have also worked at OfficeBanao and Bricknbolt as SDE Intern.
             <br />

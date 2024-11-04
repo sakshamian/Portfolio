@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { FaGolang } from "react-icons/fa6";
 import {
   DiJavascript1,
   DiReact,
@@ -35,6 +36,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaGolang />
       </Col>
     </Row>
   );

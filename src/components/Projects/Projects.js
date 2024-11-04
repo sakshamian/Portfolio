@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import infohub from "../../Assets/Projects/infohub.png";
+import quicksplit from "../../Assets/Projects/quicksplit.png";
 import bruteforce from "../../Assets/Projects/bruteforce.png";
 import countries from "../../Assets/Projects/countries.png";
 import urlshorten from "../../Assets/Projects/urlshorten.png";
@@ -21,6 +21,16 @@ function Projects() {
           Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={quicksplit}
+              title="QuickSplit"
+              description="Quicksplit is a Flutter application designed to simplify the management of shared expenses. It enables users to create groups, manage expenses, track debts, and settle payments manually with ease."
+              ghLink="https://github.com/sakshamian/QuickSplit-FE/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bruteforce}
@@ -70,15 +80,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={infohub}
-              title="Infohub"
-              description="Webapp to search any user by github username and get repositories and profile of the user in a appealing UI."
-              ghLink="https://github.com/sakshamian/Info-hub"
-              demoLink="https://info-hub-alpha.vercel.app/"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
